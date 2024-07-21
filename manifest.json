@@ -1,0 +1,18 @@
+{
+  "name": "Lino Player",
+  "short_name": "Lino Player",
+  "start_url": "https://pablofdz.github.io/lino-player/",
+  "icons": [
+    {
+      "src": "icons/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "theme_color": "#8b949a",
+  "background_color": "#1f232a",
+  "id": "salmonjump_led",
+  "description": "Instrumentals player. Promote your instrumentals with the scratch community",
+  "display": "standalone",
+  "orientation": "landscape"
+}
