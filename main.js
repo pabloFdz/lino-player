@@ -24,7 +24,7 @@ const songs = [
     source: "songs/Bodipo - Rap119.mp3",
   },
   {
-    title: "_In my mind",
+    title: "In my mind",
     name: "Careuno",
     source: "songs/Careuno - In my mind.mp3",
   },
@@ -99,6 +99,10 @@ song.addEventListener("timeupdate", function () {
 song.addEventListener("loadedmetadata", function () {
   progress.max = song.duration;
   progress.value = song.currentTime;
+});
+
+song.addEventListener("ended", (event) => {
+  forwardButton.click()
 });
 
 function pauseSong() {
