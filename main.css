@@ -207,8 +207,10 @@ body {
   transform: scale(1.25);
 }
 
-@media screen and (max-width: 800px), 
-       screen and (max-height: 600px) {
+@media screen and (max-width: 800px), screen and (max-height: 600px) {
+  .album-cover {
+    margin-top: -40%;
+  }
   .swiper {
     padding: 2% 0 60px;
   }
