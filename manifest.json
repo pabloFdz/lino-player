@@ -19,5 +19,5 @@
   "id": "salmonjump_linoplayer",
   "description": "Instrumentals player. Promote your instrumentals with the scratch community",
   "display": "standalone",
-  "orientation": "landscape"
+  "orientation": "portrait"
 }
