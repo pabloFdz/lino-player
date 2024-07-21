@@ -11,7 +11,7 @@
   ],
   "theme_color": "#8b949a",
   "background_color": "#1f232a",
-  "id": "salmonjump_led",
+  "id": "salmonjump_linoplayer",
   "description": "Instrumentals player. Promote your instrumentals with the scratch community",
   "display": "standalone",
   "orientation": "landscape"
