@@ -24,6 +24,7 @@ body {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   animation: slidein 120s forwards infinite alternate;
+  overflow: hidden;
 }
 
 @keyframes slidein {
